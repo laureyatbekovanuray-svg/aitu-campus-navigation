@@ -1,0 +1,224 @@
+*{box-sizing:border-box}body{margin:0;background:#0e1423;color:#edf3ff;font:15px Inter,system-ui,-apple-system,Segoe UI,sans-serif}button,input,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}.app{display:flex;min-height:100vh}.sidebar{width:250px;flex-shrink:0;background:#111b2e;border-right:1px solid #28354b;padding:30px 18px;display:flex;flex-direction:column;gap:10px}.brand{font-size:25px;font-weight:900;color:#56a1ff;letter-spacing:-1px}.brand span{font-size:15px;color:#fff}.subtitle{font-size:10px;letter-spacing:2px;color:#8191a9;margin:0 0 36px}.sidebar nav{display:grid;gap:8px}.sidebar nav button,.refresh{display:flex;align-items:center;gap:12px;border:0;background:transparent;color:#a6b5ca;padding:14px;border-radius:12px;text-align:left}.sidebar nav button:hover,.sidebar nav button.active{background:#1c3458;color:#6bb2ff}.sidefoot{margin-top:auto;color:#a6b5ca;font-size:12px}.dot{display:inline-block;background:#e9b45b;width:9px;height:9px;border-radius:50%;margin-right:6px}.dot.green{background:#3ad49b}.refresh{padding-left:0;font-size:12px}main{padding:32px 42px;flex:1;min-width:0;max-width:1600px;margin:auto}header{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}header small,.hero small{color:#6faeff;letter-spacing:2px;font-size:11px;font-weight:700}h1{font-size:32px;margin:7px 0}h2{font-size:22px}h3{font-size:17px}.avatar{background:#2c77ce;padding:13px;border-radius:50%;font-weight:800}.warning,.toast{display:flex;align-items:center;gap:10px;background:#45371e;border:1px solid #8b692d;padding:14px;border-radius:12px;margin:15px 0}.toast{background:#173a43;border-color:#256b7a;justify-content:space-between}.toast button{background:transparent;color:white;border:0;font-size:22px}.hero{background:linear-gradient(120deg,#172d50,#235d9d);padding:30px;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:20px}.hero h2{font-size:30px;margin:8px 0}.hero p{color:#c2d5ef}.primary{display:inline-flex;justify-content:center;align-items:center;gap:8px;background:#2989f6;color:white;border:0;border-radius:10px;padding:12px 17px;font-weight:650}.primary:hover{background:#1673df}.days{display:flex;gap:10px;margin:26px 0;flex-wrap:wrap}.days button{border:1px solid #303e56;border-radius:12px;background:#1b2537;color:#b4c2d6;padding:13px 20px}.days button.chosen{background:#318afa;color:white}.sectionTitle{display:flex;justify-content:space-between;align-items:center}.sectionTitle span,.muted{color:#93a4bb}.inline{display:flex;gap:12px;align-items:center;margin:12px 0 22px;color:#9aacc6}.inline input{max-width:180px}.cards{display:grid;gap:14px}.classCard{display:flex;gap:25px;align-items:center}.time{min-width:65px;font-size:20px;font-weight:700}.time small{display:block;color:#8899ae;font-size:13px}.classInfo{background:#1a2435;border:1px solid #29364d;padding:18px 22px;border-radius:16px;flex:1}.classInfo small{color:#8397b2}.classInfo h3{margin:6px 0 12px}.roomLink{display:flex;align-items:center;gap:7px;background:#193b5d;color:#4fa5ff;border:0;padding:10px;border-radius:8px;width:100%;text-align:left}.empty{border:1px dashed #3b4c65;border-radius:14px;padding:30px;color:#9eb0c7}.searchBar{display:flex;gap:14px;align-items:center;background:#1a263a;padding:12px;border-radius:13px}.searchBar input{flex:1;background:transparent;border:0;outline:none;color:white}.roomGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px;margin-top:24px}.roomCard,.panel,.routePanel{background:#1a2538;border:1px solid #2c3b52;border-radius:16px;padding:22px}.roomCard h3{margin:12px 0 4px}.roomCard p,.roomCard small{color:#91a6c2}.roomCard .primary{margin-top:18px;width:100%}.roomIcon{color:#58a9ff}.mapToolbar{display:flex;align-items:center;gap:16px;margin-bottom:18px;flex-wrap:wrap}.mapToolbar label{display:flex;align-items:center;gap:8px}.ghost{background:#26344a;border:1px solid #3a4a60;border-radius:10px;padding:11px 16px;color:#e1edff;display:inline-flex;gap:8px;align-items:center}.mapLayout{display:grid;grid-template-columns:minmax(0,2fr) minmax(250px,1fr);gap:18px}.mapPanel{background:#19263c;padding:15px;border-radius:18px;min-width:0}.mapCaption{padding:10px 8px;font-weight:800;display:flex;justify-content:space-between}.mapCaption span{color:#7e93b1;font-size:10px}.floorMap{width:100%;height:auto;display:block}.mapNote{font-size:12px;color:#9baec7;line-height:1.6}.routePanel h3{display:flex;gap:8px;align-items:center}.routePanel hr{border:0;border-top:1px solid #35445d;margin:26px 0}.instruction{background:#203e62;border-radius:10px;padding:15px;margin-top:20px}.alertItem{padding:12px 0;border-bottom:1px solid #344157;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}.alertItem strong{color:#ffb270}.alertItem small{width:100%;color:#8597b0}.stats{display:flex;gap:14px;flex-wrap:wrap;margin:22px 0 40px}.stat{background:#1a283f;border-radius:14px;padding:20px;min-width:140px;display:flex;flex-direction:column}.stat strong{font-size:38px;color:#5aaaff}.stat small,.stat span{color:#9aafca}.tableWrap{overflow:auto;background:#1a2538;border-radius:14px;margin-top:20px}table{border-collapse:collapse;width:100%;text-align:left}th,td{padding:14px;border-bottom:1px solid #303d52;white-space:nowrap}th{color:#8fa8c8;font-size:12px}.adminGrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:36px}.form{display:grid;gap:14px}.form label{display:grid;gap:6px;color:#b3c3d8}.form input,.form select,input,select{background:#111d2e;color:#f0f5ff;border:1px solid #354760;border-radius:9px;padding:10px;min-width:0}.iconButton{border:0;background:#273e5e;color:#83baff;border-radius:7px;padding:9px;margin-right:7px}.iconButton.danger{color:#ff8c92}footer{margin-top:50px;color:#6e819d;font-size:12px}@media(max-width:850px){.sidebar{width:76px;padding:24px 10px}.brand{font-size:19px}.brand span,.subtitle,.sidebar nav button{font-size:0}.sidebar nav button{justify-content:center}.sidefoot{font-size:0}.refresh{font-size:0}main{padding:20px}.mapLayout,.adminGrid{grid-template-columns:1fr}.hero{flex-direction:column;align-items:flex-start}}@media(max-width:520px){.sidebar{width:58px}.hero h2{font-size:24px}.classCard{gap:10px}.classInfo{padding:14px}.time{font-size:15px;min-width:45px}.searchBar{flex-wrap:wrap}.searchBar input{min-width:130px}.searchBar .primary{width:100%}h1{font-size:25px}}
+.authHeader{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.authHeader span{color:#9baec9;font-size:12px}.mapToolbar{flex-wrap:wrap}.mapToolbar label{flex:1;min-width:175px}.mapToolbar select{max-width:100%}.routePanel .instruction{line-height:1.55}.routePanel .muted{overflow-wrap:anywhere}
+
+/* Original AITU floor artwork: responsive, unaltered SVG geometry */
+.originalMapFrame{position:relative;background:#f5f6f8;border-radius:14px;overflow:hidden;min-height:270px;display:flex;align-items:center;justify-content:center;padding:12px}
+.originalMapImage{display:block;width:100%;height:auto;max-height:570px;object-fit:contain}
+.originalMapCredit{position:absolute;bottom:5px;right:9px;font-size:10px;color:#666;background:rgba(255,255,255,.85);padding:2px 6px;border-radius:5px}
+
+/* AITU Navigation — cohesive campus dashboard refresh */
+:root{color-scheme:dark;--page:#17263d;--side:#142238;--surface:#20334c;--surface-raised:#253b56;--line:#3a516e;--accent:#4c9beb;--text:#eef5ff;--subtle:#aec0d7}
+body{background:var(--page);color:var(--text);line-height:1.5}
+.sidebar{background:var(--side);border-right-color:#2e4561;box-shadow:4px 0 25px rgba(5,15,30,.1)}
+.brand{color:#78b9ff}.subtitle,.sidefoot{color:var(--subtle)}
+.sidebar nav button{color:#bdcee1;transition:background .2s,color .2s}
+.sidebar nav button:hover,.sidebar nav button.active{background:#284669;color:#b6dfff}
+main{padding-top:38px}header{margin-bottom:28px}h1{letter-spacing:-.8px}
+.hero{background:linear-gradient(115deg,#294c76,#316ca8);border:1px solid #5684b7;border-radius:22px;box-shadow:0 12px 28px rgba(10,25,50,.12)}
+.hero p{color:#e0edfa}.primary{background:#347fd0;border-radius:11px;transition:background .2s,transform .2s}
+.primary:hover{background:#4a9be9;transform:translateY(-1px)}
+.days button{background:#223750;border-color:#3c5774;color:#d1e0f1}
+.days button.chosen{background:#397fcb;border-color:#67aeef}
+.classInfo,.roomCard,.panel,.routePanel,.tableWrap{background:var(--surface);border:1px solid var(--line);box-shadow:0 5px 18px rgba(8,20,40,.09)}
+.classInfo{border-radius:18px}.classInfo small,.roomCard p,.roomCard small,.muted,.sectionTitle span{color:var(--subtle)}
+.roomLink{background:#294b6d;color:#a8d5ff}.roomLink:hover{background:#315b83}
+.searchBar,.stat{background:var(--surface);border:1px solid var(--line)}
+.searchBar input{background:transparent;border:0}
+.mapToolbar{background:#20334c;border:1px solid #3b5371;border-radius:17px;padding:14px 16px;gap:12px}
+.mapToolbar label{color:#c8d9ec;font-size:13px;font-weight:600}
+.mapToolbar select{background:#172940;border-color:#4a6484}
+.mapPanel{background:#20334c;border:1px solid #3b5371;border-radius:19px;padding:14px}
+.mapCaption{color:#eef5ff;letter-spacing:.3px}.mapCaption span{color:#a7bbd4}
+.originalMapFrame{background:#f3f6fa;border:1px solid #dce5ef;border-radius:15px;padding:14px;box-shadow:inset 0 1px 5px rgba(31,57,87,.06)}
+.originalMapImage{max-height:630px}.originalMapCredit{color:#42536b;background:rgba(255,255,255,.93)}
+.mapNote{color:#b9c9dd}.routePanel{border-radius:19px}.routePanel hr{border-top-color:#405873}
+.instruction{background:#2b4a6d;color:#e6f1ff;border:1px solid #45668a}
+.ghost,.iconButton{background:#29435f;border-color:#4a6481;color:#d9ebff}
+.form input,.form select,input,select{background:#192b42;border-color:#45617f;color:#f0f6ff}
+input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid #82c4ff;outline-offset:2px}
+th,td{border-bottom-color:#3b526e}th{color:#c1d4e8}
+footer{color:#a1b5cc}
+@media(max-width:850px){main{padding:22px}.mapToolbar{padding:12px}}
+@media(max-width:520px){.mapPanel{padding:9px}.originalMapFrame{padding:5px}.hero{padding:22px}}
+/* AITU original map: zoom and pan */
+
+.mapZoomControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.mapZoomControls button {
+  background: #294a70;
+  color: white;
+  border: 1px solid #45678b;
+  border-radius: 9px;
+  padding: 8px 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.mapZoomControls button:hover {
+  background: #3979bd;
+}
+
+.mapZoomControls span {
+  color: #d9e9ff;
+  min-width: 48px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.mapZoomViewport {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #f3f6fa;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.mapZoomViewport:active {
+  cursor: grabbing;
+}
+
+.mapZoomViewport .originalMapImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  transform-origin: center center;
+  transition: transform 0.12s ease-out;
+  pointer-events: none;
+}
+/* Fix map size and zoom controls */
+
+.mapZoomControls {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.mapZoomControls button {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.mapZoomViewport {
+  position: relative;
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mapZoomViewport .originalMapImage {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  object-fit: contain;
+  transform-origin: center center;
+}
+/* Compact controls above the AITU map */
+
+.mapZoomControls {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  margin: 0 0 10px auto;
+  padding: 5px;
+  background: #192d48;
+  border: 1px solid #385574;
+  border-radius: 10px;
+}
+
+.mapZoomControls button {
+  padding: 5px 9px;
+  min-width: 30px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.mapZoomControls span {
+  min-width: 42px;
+  font-size: 12px;
+  color: #dceaff;
+}
+
+.mapZoomViewport {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f2f5fa;
+}
+
+.mapZoomViewport .originalMapImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+/* Compact map toolbar */
+
+.mapZoomControls {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  margin: 0 0 10px auto;
+  padding: 4px;
+  background: #192d48;
+  border: 1px solid #385574;
+  border-radius: 10px;
+}
+
+.mapZoomControls button {
+  min-width: 30px;
+  padding: 5px 9px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.mapZoomControls span {
+  min-width: 42px;
+  font-size: 12px;
+  color: #dceaff;
+}
+
+.originalMapFrame {
+  position: relative;
+  overflow: hidden;
+  background: #f2f5fa;
+  border-radius: 14px;
+}
+
+.mapZoomViewport {
+  width: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+.mapZoomViewport .originalMapImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
